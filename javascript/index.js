@@ -89,13 +89,13 @@ class ActingChallenge {
         })(desc1 || (desc1 = {}));
         let desc2;
         (function (desc2) {
-            desc2[desc2["crime."] = 0] = "crime.";
-            desc2[desc2["phone apps."] = 1] = "phone apps.";
-            desc2[desc2["social media."] = 2] = "social media.";
-            desc2[desc2["cancel culture."] = 3] = "cancel culture.";
-            desc2[desc2["gayness."] = 4] = "gayness.";
-            desc2[desc2["celebrities."] = 5] = "celebrities.";
-            desc2[desc2["the future."] = 6] = "the future.";
+            desc2[desc2["the tea of it all."] = 0] = "the tea of it all.";
+            desc2[desc2["the shade of it all."] = 1] = "the shade of it all.";
+            desc2[desc2["the iconicness of it all."] = 2] = "the iconicness of it all.";
+            desc2[desc2["the sparkleblades of it all."] = 3] = "the sparkleblades of it all.";
+            desc2[desc2["hehe."] = 4] = "hehe.";
+            desc2[desc2["lets hope this works."] = 5] = "lets hope this works.";
+            desc2[desc2["please jesus."] = 6] = "please jesus.";
         })(desc2 || (desc2 = {}));
         description.innerHTML = "The queens will act in a " + desc1[randomNumber(0, 4)] + desc2[randomNumber(0, 6)];
     }
@@ -2684,6 +2684,7 @@ let luquisha = new Queen("Luquisha Lubamba", 6, 6, 7, 8, 7, 8, 9, "Luquisha");
 let italia = [ava, divinity, elecktra, enorma, farida, ivana, riche, luquisha];
 //SPECIAL
 let pangina = new Queen("Pangina Heals", 10, 10, 9, 12, 9, 13, 11);
+let chuu = new Queen("Chuu Betta Work", 10, 10, 9, 12, 9, 13, 11, "Chuu");
 let international_as = [baga, blu, cheryl, janey, jimbo, jujubee, lemon, monique, pangina];
 //all possible queens:
 let allCustomQueens = [];
@@ -2722,7 +2723,7 @@ let allQueens = [
     arantxa, carmenf, dovima, drag, hugaceo, inti, killer, pupi, sagittaria, macarena,
     adriana, beth, eve, giametric, icesis, kendall, kimoraA, oceane, pythia, stephanie, suki, synthia,
     ava, divinity, elecktra, enorma, farida, ivana, riche, luquisha,
-    pangina
+    pangina, chuu
 ].concat(allCustomQueens).sort((a, b) => a.getName().toLowerCase().localeCompare(b.getName().toLowerCase()));
 let allQueensCopy = [];
 let randomReturn = false;
